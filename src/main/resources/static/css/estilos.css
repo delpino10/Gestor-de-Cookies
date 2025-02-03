@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #eee;
+    font-family: Poppins,sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    width: 300px;
+}
+
+.formulario{
+    margin: 20px 0;
+    width: 100%;
+}
+
+.campo{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.checkboxes{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.botones{
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 5px;
+}
